@@ -1,3 +1,5 @@
+######################## Code is written in pyhton 3.8 ###################################################
+
 import numpy as np
 import pandas as pd
 
@@ -20,10 +22,13 @@ import math
 ##### https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::crash-analysis-system-cas-data-1/about ####
 file = pd.read_csv("Crash_Analysis_System_(CAS)_data.csv")
 
+############## Data originally is from https://nzdotstat.stats.govt.nz/wbos/Index.aspx ##################
 #### load in Stats annual pop. est. data #################################################################
 ##### can be found in project folder #####################################################################
 popFile = pd.read_csv("pop-esti-StatsNZ-2000-2021.csv")
 
+
+############## Data originally is from https://nzdotstat.stats.govt.nz/wbos/Index.aspx ##################
 #### load in census work-travel data #####################################################################
 ##### can be found in project folder #####################################################################
 census_WT_2018 = pd.read_csv("census-work-travel-2018.csv")
